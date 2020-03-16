@@ -2262,12 +2262,12 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #008FDA;
+  border-color: #008FDA;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 143, 218, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
