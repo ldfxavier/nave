@@ -33,6 +33,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfólio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
@@ -60,6 +63,40 @@
 
     </div>
   </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-secondary text-white mb-0" id="services">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Serviços</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead"> 
+          Desenvolvimento de sistemas inteligentes com integração e manutenção - A NAVI desenvolve sistemas personalizado, adequado a cada empresa, unidade de negócio ou campanha.
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">
+          Desenvolvimento personalizado de aplicativos para Androi e iOS.
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">
+          Nossa preocupação não é apenas com a estética, mas principalmente com a função das coisas. Colocando os usuários acima de tudo, entregamos produtos digitais que proporcionam uma boa experiência em belos designers.</p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
