@@ -5590,7 +5590,7 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 4rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .modal-footer {
@@ -9860,4 +9860,73 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #fff;
+}
+
+.servicos {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.servico {
+  display: flex;
+  flex-direction: column;
+  background-color: #29272D;
+  padding: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.servico:hover{
+  background-color: #fff;
+}
+
+.servico:hover i{
+  color: #29272D;
+}
+
+.servico:hover h6{
+  color: #29272D;
+}
+
+.servico i {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.servico h6 {
+  text-align: center;
+}
+
+.servico_texto{
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.whatsapp {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.subTitulo {
+  text-align: center;
+}
+
+.whatsappSub {
+  background-color: #008FDA;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.whatsappSub:hover {
+  color: #fff;
 }

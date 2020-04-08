@@ -33,16 +33,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services">Serviços</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfólio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/nave/login" target="_blank">Login</a>
           </li>
         </ul>
       </div>
@@ -55,11 +58,11 @@
 
       <!-- Masthead Avatar Image -->
       <!-- <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt=""> -->
-      <h1 class="masthead-heading text-uppercase">Nenhuma ideia</h1>
-      <h1 class="masthead-heading text-uppercase">é pequena demais.</h1>
-      <p>Soluções em sistemas automatizados para pequenas e grandes empresas utilizando como base suas necessidades.
+      <h1 class="masthead-heading text-uppercase">SUAS IDEIAS</h1>
+      <h1 class="masthead-heading text-uppercase">SEM FRONTEIRAS.</h1>
+      <p>Soluções em sistemas automatizados de gestão e comunicação para pequenas e grandes empresas, baseadas nas suas necessidades.
         </p>
-        <p>Vamos decolar com seu projeto.</p>
+        <p>A NAVE oferece soluções para seu projeto decolar</p>
 
     </div>
   </header>
@@ -77,22 +80,26 @@
       </div>
 
       <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead"> 
-          Desenvolvimento de sistemas inteligentes com integração e manutenção - A NAVI desenvolve sistemas personalizado, adequado a cada empresa, unidade de negócio ou campanha.
-          </p>
+      <div class="row servicos">
+        <div class="col-lg-3">
+          <div class="servico" data-toggle="modal"  data-target="#modalSoftwares">
+            <i class="fas fa-laptop-code"></i>
+            <h6>Desenvolvimento de softwares</h6>  
+          </div>
         </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
-          Desenvolvimento personalizado de aplicativos para Androi e iOS.
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
-          Nossa preocupação não é apenas com a estética, mas principalmente com a função das coisas. Colocando os usuários acima de tudo, entregamos produtos digitais que proporcionam uma boa experiência em belos designers.</p>
+        <div class="col-lg-3">
+          <div class="servico" data-toggle="modal"  data-target="#modalMobile">
+            <div class="icons">
+              <i class="fab fa-android"></i>
+              <i class="fab fa-apple"></i>
+            </div>
+            <h6>Desenvilvimento de aplicativos para Android e iOS</h6>  
+          </div>
         </div>
       </div>
+
+      <div class="row servico_texto">
+        <p class="lead">Nossa preocupação não é apenas com a estética, mas principalmente com a funcionalidade dos sistemas, colocando a finalidade dos processos e experiência de navegação dos usuários em primeiro lugar, de maneira leve, atraente e funcional.</p>
       </div>
 
     </div>
@@ -209,12 +216,25 @@
       <div class="row">
         <div class="col-lg-4 ml-auto">
           <p class="lead">
-            A NAVI tecnologia nasceu para encurtar distâncias. O futuro exite comunicação eficiente, em todos os níveis das organizações e na cadeia de valor. Nosso Objetivo é construir parcerias sólidas através de serviços de comunicação digital eficiente, aplicada e nunca experimentadas antes.
+            A NAVE tecnologia nasceu para encurtar distâncias.
+          </p>
+          <p class="lead">
+            Somos uma empresa especializada no desenvolvimento de sites, softwares de gestão e comunicação, modernos e diferenciados, tornando a navegação uma experiência prazerosa e exclusiva.
+          </p>
+          <p class="lead">
+            A NAVE acredita que não existem fronteiras para inovação nos processos e na comunicação das organizações.
+          </p>
+          <p class="lead">
+            O futuro exige comunicação eficiente, em todos os níveis das instituições e n cadeia de valor.
           </p>
         </div>
         <div class="col-lg-4 mr-auto">
           <p class="lead">
-            Nós buscamos resultados excelentes! Solicite uma visita de nossos consultores.</p>
+            Nossa missão é...
+          </p>
+          <p class="lead">
+            Desenvolver soluções em sistemas automatizados para empresas de pequeno e grande porte.
+          </p>
         </div>
       </div>
       </div>
@@ -233,6 +253,12 @@
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
       </div>
+
+      <p class="lead subTitulo">Preencha o formulário abaixo ou nos envie uma mensagem pelo
+          <a class="whatsappSub" href="https://api.whatsapp.com/send?phone=55999999999999&text=Ol%C3%A1%20NAVE%2C%20estou%20precisando%20de%20ajuda!" target="_blank">
+            WhatsApp
+          </a>
+      </p>
 
       <!-- Contact Section Form -->
       <div class="row">
@@ -310,6 +336,9 @@
           <h4 class="text-uppercase mb-4">Contatos</h4>
           <p class="lead mb-0">contato@nave.art.br</p>
           <p class="lead mb-0">61 9.9999-9999</p>
+          <a class="whatsapp" href="https://api.whatsapp.com/send?phone=55999999999999&text=Ol%C3%A1%20NAVE%2C%20estou%20precisando%20de%20ajuda!" target="_blank">
+            WhatsApp
+          </a>
         </div>
 
       </div>
@@ -499,6 +528,34 @@
     </div>
   </div>
 
+  <div class="modal fade" id="modalSoftwares" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="gridSystemModalLabel">Desenvolvimento de softwares</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          Desenvolvimento de sistemas inteligentes de gestão comercial, financeiro, estoque, telemarketing, CRM, segurança, atendimento ao público, bancos de dados, filantrópica ou qualquer outra solução que sua organização necessite. Hospedagem de servidor, banco de dados, backup.
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="modalMobile" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="gridSystemModalLabel">Desenvilvimento de aplicativos para Android e iOS</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          A utilização de aplicativos para plataformas móbile são uma tendência mundial para facilitar a comunicação das empresas e pessoas, através de milhões de usuários integrados simultaneamente em todo o mundo. A possibilidade de acessar essa rede através de um celular, abriu portas para novos negócios, 
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -511,7 +568,7 @@
   <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+  <script src="js/freelancer.js"></script>
 
 </body>
 

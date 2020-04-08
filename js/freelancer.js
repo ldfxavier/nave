@@ -59,5 +59,9 @@
       $(this).removeClass("floating-label-form-group-with-focus");
     });
   });
+  
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
 
 })(jQuery); // End of use strict
