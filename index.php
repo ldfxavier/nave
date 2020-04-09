@@ -25,7 +25,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">NAVE</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="" src="img/logo.png" alt=""></a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -84,7 +84,7 @@
         <div class="col-lg-3">
           <div class="servico" data-toggle="modal"  data-target="#modalSoftwares">
             <i class="fas fa-laptop-code"></i>
-            <h6>Desenvolvimento de softwares</h6>  
+            <h6>Desenvolvimento de softwares</h6>
           </div>
         </div>
         <div class="col-lg-3">
@@ -93,7 +93,7 @@
               <i class="fab fa-android"></i>
               <i class="fab fa-apple"></i>
             </div>
-            <h6>Desenvilvimento de aplicativos para Android e iOS</h6>  
+            <h6>Desenvilvimento de aplicativos para Android e iOS</h6>
           </div>
         </div>
         <div class="col-lg-3">
@@ -101,7 +101,7 @@
             <div class="icons">
             <i class="fas fa-laptop"></i>
             </div>
-            <h6>Desenvolvimento de sites</h6>  
+            <h6>Desenvolvimento de sites</h6>
           </div>
         </div>
         <div class="col-lg-3">
@@ -109,7 +109,7 @@
             <div class="icons">
             <i class="fas fa-hands-helping"></i>
             </div>
-            <h6>Diversos</h6>  
+            <h6>Diversos</h6>
           </div>
         </div>
       </div>
