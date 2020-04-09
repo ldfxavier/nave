@@ -93,7 +93,7 @@
               <i class="fab fa-android"></i>
               <i class="fab fa-apple"></i>
             </div>
-            <h6>Desenvilvimento de aplicativos para Android e iOS</h6>
+            <h6>Desenvolvimento de aplicativos para Android e iOS</h6>
           </div>
         </div>
         <div class="col-lg-3">
@@ -545,7 +545,7 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
-          Desenvolvimento de sistemas inteligentes de gestão comercial, financeiro, estoque, telemarketing, CRM, segurança, atendimento ao público, bancos de dados, filantrópica ou qualquer outra solução que sua organização necessite. Hospedagem de servidor, banco de dados, backup.
+          Desenvolvimento de sistemas inteligentes de gestão comercial, financeiro, estoque, telemarketing, CRM, segurança, atendimento ao público, bancos de dados, filantropia, esporte ou qualquer outra solução que sua organização necessite. Hospedagem de servidor, banco de dados, backup.
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -555,11 +555,11 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="gridSystemModalLabel">Desenvilvimento de aplicativos para Android e iOS</h4>
+          <h4 class="modal-title" id="gridSystemModalLabel">Desenvolvimento de aplicativos para Android e iOS</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
-          A utilização de aplicativos para plataformas móbile são uma tendência mundial para facilitar a comunicação das empresas e pessoas, através de milhões de usuários integrados simultaneamente em todo o mundo. A possibilidade de acessar essa rede através de um celular, abriu portas para novos negócios idéias e promoveu ascensões meteóricas de empresas a partir de idéias simples e de baixo investimento.
+          A utilização de aplicativos para plataformas móbile é uma tendência mundial para facilitar a comunicação das empresas e pessoas através de milhões de usuários integrados em todo o mundo. A possibilidade de acessar essa rede através de um celular abriu portas para novos negócios, ideias e promoveu ascensões meteóricas de empresas a partir de ideias simples e de baixo investimento.
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -569,7 +569,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="gridSystemModalLabel">Desenvilvimento de sites</h4>
+          <h4 class="modal-title" id="gridSystemModalLabel">Desenvolvimento de sites</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
