@@ -2,7 +2,7 @@
 define('DB_DRIVER', 'mysql');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PWD', '123456');
+define('DB_PWD', 'Dev@1324');
 define('DB_DATABASE', 'umprogramador');
 date_default_timezone_set('America/Sao_Paulo');
 
@@ -73,14 +73,14 @@ final class Email
         $mail->isSMTP();
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'html';
-        $mail->Host = 'a2plcpnl0075.prod.iad2.secureserver.net';
+        $mail->Host = 'a2plcpnl0938.prod.iad2.secureserver.net';
         $mail->Port = 465;
         $mail->SMTPSecure = 'ssl';
         $mail->SMTPAuth = true;
-        $mail->Username = "atendimento@umprogramador.com.br";
-        $mail->Password = "up134679";
-        $mail->setFrom('comercial@nave.art.br', 'Atendimento');
-        $mail->addReplyTo('comercial@nave.art.br', 'Atendimento');
+        $mail->Username = "nao-responda@nave.art.br";
+        $mail->Password = "Nave@1324";
+        $mail->setFrom('nao-responda@nave.art.br', 'NAVE');
+        $mail->addReplyTo('nao-responda@nave.art.br', 'NAVE');
         $mail->addAddress($email, $titulo);
         $mail->Subject = $titulo;
         $mail->msgHTML(file_get_contents($mensagem), dirname(__FILE__));
