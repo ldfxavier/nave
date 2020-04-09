@@ -58,7 +58,7 @@
 
       <!-- Masthead Avatar Image -->
       <!-- <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt=""> -->
-      <h1 class="masthead-heading text-uppercase">SUAS IDEIAS</h1>
+      <h1 class="masthead-heading text-uppercase">SUAS <span class="bgfont">IDEIAS</span></h1>
       <h1 class="masthead-heading text-uppercase">SEM FRONTEIRAS.</h1>
       <p>Soluções em sistemas automatizados de gestão e comunicação para pequenas e grandes empresas, baseadas nas suas necessidades.
         </p>
@@ -94,6 +94,22 @@
               <i class="fab fa-apple"></i>
             </div>
             <h6>Desenvilvimento de aplicativos para Android e iOS</h6>  
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="servico" data-toggle="modal"  data-target="#modalSite">
+            <div class="icons">
+            <i class="fas fa-laptop"></i>
+            </div>
+            <h6>Desenvolvimento de sites</h6>  
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="servico" data-toggle="modal"  data-target="#modalDiversos">
+            <div class="icons">
+            <i class="fas fa-hands-helping"></i>
+            </div>
+            <h6>Diversos</h6>  
           </div>
         </div>
       </div>
@@ -214,26 +230,19 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">
+        <div class="col-lg-12 ml-auto">
+          <p class="lead text-center">
             A NAVE tecnologia nasceu para encurtar distâncias.
           </p>
-          <p class="lead">
+          <p class="lead text-center">
             Somos uma empresa especializada no desenvolvimento de sites, softwares de gestão e comunicação, modernos e diferenciados, tornando a navegação uma experiência prazerosa e exclusiva.
           </p>
-          <p class="lead">
+          <p class="lead text-center">
             A NAVE acredita que não existem fronteiras para inovação nos processos e na comunicação das organizações.
+            O futuro exige comunicação eficiente, em todos os níveis das instituições e na cadeia de valor.
           </p>
-          <p class="lead">
-            O futuro exige comunicação eficiente, em todos os níveis das instituições e n cadeia de valor.
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
-            Nossa missão é...
-          </p>
-          <p class="lead">
-            Desenvolver soluções em sistemas automatizados para empresas de pequeno e grande porte.
+          <p class="lead text-center">
+          Nossa <span class="destaque">missão</span> é desenvolver soluções em sistemas automatizados para empresas de pequeno e grande porte.
           </p>
         </div>
       </div>
@@ -255,7 +264,7 @@
       </div>
 
       <p class="lead subTitulo">Preencha o formulário abaixo ou nos envie uma mensagem pelo
-          <a class="whatsappSub" href="https://api.whatsapp.com/send?phone=55999999999999&text=Ol%C3%A1%20NAVE%2C%20estou%20precisando%20de%20ajuda!" target="_blank">
+          <a class="whatsappSub" href="https://api.whatsapp.com/send?phone=5561999199363&text=Ol%C3%A1%20NAVE%2C%20estou%20precisando%20de%20ajuda!" target="_blank">
             WhatsApp
           </a>
       </p>
@@ -334,8 +343,8 @@
         <!-- Footer About Text -->
         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Contatos</h4>
-          <p class="lead mb-0">contato@nave.art.br</p>
-          <p class="lead mb-0">61 9.9999-9999</p>
+          <p class="lead mb-0">comercial@nave.art.br</p>
+          <p class="lead mb-0">61 9.9919-9363</p>
           <a class="whatsapp" href="https://api.whatsapp.com/send?phone=55999999999999&text=Ol%C3%A1%20NAVE%2C%20estou%20precisando%20de%20ajuda!" target="_blank">
             WhatsApp
           </a>
@@ -550,7 +559,37 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
-          A utilização de aplicativos para plataformas móbile são uma tendência mundial para facilitar a comunicação das empresas e pessoas, através de milhões de usuários integrados simultaneamente em todo o mundo. A possibilidade de acessar essa rede através de um celular, abriu portas para novos negócios, 
+          A utilização de aplicativos para plataformas móbile são uma tendência mundial para facilitar a comunicação das empresas e pessoas, através de milhões de usuários integrados simultaneamente em todo o mundo. A possibilidade de acessar essa rede através de um celular, abriu portas para novos negócios idéias e promoveu ascensões meteóricas de empresas a partir de idéias simples e de baixo investimento.
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="modalSite" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="gridSystemModalLabel">Desenvilvimento de sites</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+        Desenvolvimento de sites exclusivos, personalizados e modernos, com acessos determinados para cada público e conteúdo gerenciável, integrando informações de textos, gráficos e multimídias, essenciais para comunicação eficiente com seu cliente interno e externo.
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="modalDiversos" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="gridSystemModalLabel">Diversos</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+        A NAVE TENOLOGIA presta serviços de consultoria, desenvolvimento, manutenção, segurança e integração de sistemas de comunicação da sua empresa, adequado a cada unidade de negócio ou campanha.
+Realiza eventos, ministra cursos e palestras para públicos internos e externos, relacionados com o uso consciente da tecnologia, tendências tecnológicas corporativas, gestão de ferramentas digitais, marketing digital, atendimento ao público e outros.
+
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

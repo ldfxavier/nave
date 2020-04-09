@@ -9716,11 +9716,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-heading {
-  font-size: 1.75rem;
-  line-height: 1.75rem;
-  background-color: #008FDA;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
   padding: 5px;
   display: table;
+}
+
+.bgfont {
+  background-color: #008FDA;
 }
 
 .masthead .masthead-subheading {
@@ -9737,8 +9740,8 @@ a.text-dark:hover, a.text-dark:focus {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 1.75rem;
-    line-height: 1.75rem;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -9929,4 +9932,9 @@ form .row:first-child .floating-label-form-group {
 
 .whatsappSub:hover {
   color: #fff;
+}
+
+.destaque {
+  font-style: italic;
+  color:  #008FDA;
 }
