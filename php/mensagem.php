@@ -19,7 +19,7 @@ $insert = $Model->insert('mensagem_contato', $dados);
 
 if ($insert):
     $Email = new Email;
-    $Email->enviar('CONTATO SITE', 'NAVE', 'ldfxavier@gmail.com', "https://nave.art.br/email/mensagem.php?h=" . $dados['hash']);
+    $Email->enviar('CONTATO SITE', 'NAVE', 'ldfxavier@gmail.com', "http://nave.art.br/email/mensagem.php?h=" . $dados['hash']);
 
     $retorno = json_encode(array(
         'erro' => false,
