@@ -175,7 +175,7 @@
         </div>
 
         <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
+        <!-- <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
@@ -184,7 +184,7 @@
             </div>
             <img class="img-fluid" src="img/portfolio/valorehaus.png" alt="">
           </div>
-        </div>
+        </div> -->
 
         <!-- Portfolio Item 4 -->
         <div class="col-md-6 col-lg-4">
@@ -437,7 +437,7 @@
   </div>
 
   <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -449,13 +449,10 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Valorehaus</h2>
-                <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/valorehaus.png" alt="">
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
@@ -467,7 +464,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
